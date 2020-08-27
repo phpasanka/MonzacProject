@@ -3,9 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Monzac.Api", "Monzac.Api", "{A66B1EB9-935A-4AE1-A6EE-330E8629277E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Monzac.React", "Monzac.React", "{79BC5474-968D-4203-82B1-C9BA1034DB78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Monzac.Api.Application", "Monzac.Api.Application", "{DF73C521-0E6C-48B6-A630-E0984C9558E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Monzac.Api.Domain", "Monzac.Api.Domain", "{0AC66A44-03D2-4608-ADC6-D0001D8BE903}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Monzac.Api.Infra.Data", "Monzac.Api.Infra.Data", "{DE7FAC98-D685-42B9-B6B5-32A4428132F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Monzac.Api.Infra.IoC", "Monzac.Api.Infra.IoC", "{82C68F00-D0E1-44C1-963D-AF184A2AE791}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Monzac.Api.Api", "Monzac.Api.Api", "{7A55037C-66A0-4312-B2C9-FD01614D819F}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DF73C521-0E6C-48B6-A630-E0984C9558E0} = {A66B1EB9-935A-4AE1-A6EE-330E8629277E}
+		{0AC66A44-03D2-4608-ADC6-D0001D8BE903} = {A66B1EB9-935A-4AE1-A6EE-330E8629277E}
+		{DE7FAC98-D685-42B9-B6B5-32A4428132F0} = {A66B1EB9-935A-4AE1-A6EE-330E8629277E}
+		{82C68F00-D0E1-44C1-963D-AF184A2AE791} = {A66B1EB9-935A-4AE1-A6EE-330E8629277E}
+		{7A55037C-66A0-4312-B2C9-FD01614D819F} = {A66B1EB9-935A-4AE1-A6EE-330E8629277E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {63A7C92D-0FDD-4452-B908-B2DA70C170B1}
