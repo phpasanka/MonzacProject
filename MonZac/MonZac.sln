@@ -13,9 +13,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra.Data", "Infra.Data", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{9892CD9F-240F-4CD2-9D8E-AA12B6A793E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonZac.Api", "MonZac.Api\MonZac.Api.csproj", "{94390D9D-5170-4B9B-9AD2-16C8169FEA13}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94390D9D-5170-4B9B-9AD2-16C8169FEA13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94390D9D-5170-4B9B-9AD2-16C8169FEA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94390D9D-5170-4B9B-9AD2-16C8169FEA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94390D9D-5170-4B9B-9AD2-16C8169FEA13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{94390D9D-5170-4B9B-9AD2-16C8169FEA13} = {9892CD9F-240F-4CD2-9D8E-AA12B6A793E1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {63A7C92D-0FDD-4452-B908-B2DA70C170B1}
